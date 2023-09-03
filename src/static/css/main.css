@@ -1,0 +1,259 @@
+.float-right {
+    float: right !important;
+}
+
+.mr-5 {
+    margin-right: 5px !important;
+}
+
+.mb-5 {
+    margin-bottom: 5px !important;
+}
+
+.mb-10 {
+    margin-bottom: 10px !important;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.ml-5 {
+    margin-left: 5px !important;
+}
+
+.ml-0 {
+    margin-left: 0 !important;
+}
+
+.auto-middle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.square-250 {
+    width: 250px;
+    height: 250px;
+}
+
+
+.flex-grow {
+    flex-grow: 1;
+}
+
+.el-header {
+    padding: 0 !important;
+}
+
+.unset-hover {
+    border-bottom: 0 !important;
+}
+
+.unset-hover.el-menu-item {
+    color: var(--el-text-color-primary) !important;
+}
+
+.el-menu--horizontal > .unset-hover.el-menu-item.is-active {
+    color: var(--el-text-color-primary) !important;
+    border-bottom: 0 !important;
+}
+
+.el-menu--horizontal > .unset-hover.el-menu-item:hover {
+    background-color: var(--el-menu-bg-color) !important;
+}
+
+.header-title {
+    cursor: unset !important;
+}
+
+
+.system-logo {
+    padding: 0 !important;
+    height: 59px;
+    line-height: 58px;
+    width: 250px;
+}
+
+.system-logo img {
+    width: 80px;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.system-logo span {
+    line-height: 58px;
+    font-weight: bold;
+}
+
+.el-aside .el-menu {
+    height: 100%;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.pl-20 {
+    padding-left: 20px !important;
+}
+
+.height-100 {
+    height: 100% !important;
+}
+
+.width-100 {
+    width: 100% !important;
+}
+
+.main-content {
+    margin-left: 30px !important;
+    overflow: hidden !important;
+    padding: 40px 0 20px 20px !important;
+}
+
+.main-content.show-router-menu {
+    margin-left: 0 !important;
+}
+
+.btn-router-menu {
+    position: fixed !important;
+    top: 80px !important;
+    bottom: 0 !important;
+    z-index: 3;
+}
+
+.btn-router-menu.closed {
+    left: -12px !important;
+}
+
+.btn-router-menu.opened {
+    left: 235px !important;
+}
+
+
+.page-header {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100% !important;
+    z-index: 3;
+}
+
+.page-content {
+    position: fixed;
+    top: 60px !important;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--el-fill-color);
+}
+
+.page-breadcrumb {
+    position: absolute;
+    top: 10px;
+    height: 30px !important;
+}
+
+.page-main {
+    padding-right: 20px !important;
+}
+
+.page-main .el-row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.page-main-tabs {
+    height: 40px !important;
+    margin: 0 0 15px !important;
+}
+
+.el-card {
+    border-radius: 0 !important;
+    box-shadow: unset !important;
+}
+
+.format-time {
+    color: var(--el-text-color-disabled);
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.ck.ck-editor {
+    width: 100% !important;
+}
+
+.ck.ck-content {
+    border: 1px solid var(--el-border-color-light) !important;
+}
+
+.ck-editor__editable_inline {
+    min-height: 300px !important;
+}
+
+.color-success {
+    color: var(--el-color-success) !important;
+}
+
+.color-danger {
+    color: var(--el-color-danger) !important;
+}
+
+.color-warning {
+    color: var(--el-color-warning) !important;
+}
+
+.color-primary {
+    color: var(--el-color-primary) !important;
+}
+
+.color-disabled {
+    color: var(--el-text-color-disabled) !important;
+}
+
+.font-14 {
+    font-size: 14px !important;
+}
+
+.search-form-item {
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.el-form .submit-btn {
+    width: 100%;
+}
+
+@media only screen and (max-width: 768px) {
+    .search-form .el-button {
+        margin-bottom: 10px !important;
+    }
+}
+
+.upload-demo.width-100 .el-upload {
+    width: 100%;
+}
+
+
+.upload-demo.width-100 .el-upload .el-upload-dragger {
+    width: 100%;
+}
+
+.right-middle {
+    position: absolute !important;
+    right: 0 !important;;
+    top: 0 !important;;
+    bottom: 0 !important;;
+    margin: auto !important;;
+}

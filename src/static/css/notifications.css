@@ -1,0 +1,24 @@
+.item-card .el-link__inner {
+    width: 100%;
+}
+
+.content-space {
+    width: 100%;
+}
+
+.content-space .el-space__item:last-of-type {
+    width: 100%;
+}
+
+.item-card .el-row {
+    width: 100%;
+}
+
+.item-content {
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+}

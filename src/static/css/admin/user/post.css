@@ -1,0 +1,21 @@
+.posts {
+    width: 100%;
+}
+
+.posts .post {
+    margin-bottom: 10px;
+}
+
+.post .el-card {
+    height: 100%;
+}
+
+.post-users .user {
+    display: flex;
+    align-items: center;
+    padding: 5px 0 !important;
+}
+
+.post-users .user .el-avatar {
+    margin-right: 5px;
+}

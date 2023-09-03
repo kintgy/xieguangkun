@@ -1,0 +1,11 @@
+.dept-tree .el-tree-node__content {
+    min-height: 26px !important;
+    height: unset !important;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+.dept-tree .el-row {
+    width: 100% !important;
+}
