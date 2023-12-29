@@ -144,7 +144,7 @@
             </el-icon>
             <div class="el-upload__text">拖曳文件到此或<em>选择文件</em></div>
           </el-upload>
-          <file-list-show @delete="event => form.shenjibaogao.splice(event, 1)" :file-list="form.shenjibaogao"/>
+<!--          <file-list-show @delete="event => form.shenjibaogao.splice(event, 1)" :file-list="form.shenjibaogao"/>-->
         </el-col>
         <!-- <el-input v-model="form.shenjibaogao" clearable /> -->
       </el-form-item>
@@ -166,7 +166,7 @@
             <el-icon class="el-icon--upload"></el-icon>
             <div class="el-upload__text">拖曳文件到此或<em>选择文件</em></div>
           </el-upload>
-          <file-list-show @delete="event => form.gudongjiyao.splice(event, 1)" :file-list="form.gudongjiyao"/>
+<!--          <file-list-show @delete="event => form.gudongjiyao.splice(event, 1)" :file-list="form.gudongjiyao"/>-->
         </el-col>
         <!-- <el-input
           type="textarea"
@@ -198,7 +198,7 @@
             <el-icon class="el-icon--upload"></el-icon>
             <div class="el-upload__text">拖曳文件到此或<em>选择文件</em></div>
           </el-upload>
-          <file-list-show @delete="event => form.dongshijiyao.splice(event, 1)" :file-list="form.dongshijiyao"/>
+<!--          <file-list-show @delete="event => form.dongshijiyao.splice(event, 1)" :file-list="form.dongshijiyao"/>-->
         </el-col>
         <!-- <el-input
           type="textarea"
@@ -244,7 +244,7 @@
             </el-icon>
             <div class="el-upload__text">拖曳文件到此或<em>选择文件</em></div>
           </el-upload>
-          <file-list-show @delete="event => form.qitawenjian.splice(event, 1)" :file-list="form.qitawenjian"/>
+<!--          <file-list-show @delete="event => form.qitawenjian.splice(event, 1)" :file-list="form.qitawenjian"/>-->
         </el-col>
         <!-- <el-input v-model="form.qitawenjian" clearable /> -->
       </el-form-item>
