@@ -137,6 +137,8 @@ onMounted(async () => {
         let myChartLeft = echarts.init(chartDomLeft);
         option.weekData && myChartLeft.setOption(option.weekData);
       });
+
+  console.log(new Date().getTimeRange("season"))
   //季图
   api
       .getPieChartData({
