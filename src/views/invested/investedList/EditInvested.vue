@@ -232,7 +232,6 @@
           <el-upload
               :file-list="form.qitawenjian"
               class="upload-demo width-100"
-              :limit="1"
               drag
               :action="`${base.url}/company/upload`"
               :multiple="false"
